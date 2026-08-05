@@ -53,12 +53,6 @@ int main() {
 
 /*for leetcode*/
 
-#include <iostream>
-#include <vector>
-#include <algorithm>
-
-using namespace std;
-
 class Solution {
 public:
     vector<vector<int>> merge(vector<vector<int>>& intervals) {
@@ -79,27 +73,3 @@ public:
     }
 };
 
-int main() {
-    vector<vector<int>> intervals = {
-        {1, 3},
-        {2, 6},
-        {8, 10},
-        {15, 18}
-    };
-
-    Solution obj;
-    vector<vector<int>> result = obj.merge(intervals);
-
-    cout << "Merged Intervals:" << endl;
-    for (const auto &interval : result) {
-        cout << "[";
-        for (int i = 0; i < interval.size(); i++) {
-            cout << interval[i];
-            if (i != interval.size() - 1)
-                cout << ", ";
-        }
-        cout << "]" << endl;
-    }
-
-    return 0;
-}
