@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-/*this sown here is valid for leetcode */
+
 
 bool isAnagram(string s, string t) {
     if (s.length() != t.length())
