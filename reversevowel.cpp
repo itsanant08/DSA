@@ -2,6 +2,7 @@
 #include <string>
 using namespace std;
 
+/*for leetcode */
 bool isVowel(char x)
 {
     return x == 'a' || x == 'e' || x == 'i' || x == 'o' || x == 'u' ||
