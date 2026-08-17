@@ -4,11 +4,11 @@
 #include <cctype>
 using namespace std;
 
+/*for leetcode*/
 int myAtoi(string s) {
     int i = 0;
     int n = s.length();
 
-    // Remove leading spaces
     while (i < n && s[i] == ' ') {
         i++;
     }
