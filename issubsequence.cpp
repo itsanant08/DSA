@@ -14,6 +14,8 @@ int main() {
     }
 
     if (i == s.length())
+
+    /*till here for leetcode*/
         cout << "true";
     else
         cout << "false";
