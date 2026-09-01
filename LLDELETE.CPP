@@ -44,7 +44,7 @@ int main() {
     cout << "Before deletion: ";
     printList(head);
 
-    // node points to 10
+
     ListNode* node = head->next;
 
     // Delete node
